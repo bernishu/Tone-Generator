@@ -1,0 +1,19 @@
+{
+  "name": "Dual Tone Bench",
+  "short_name": "Tone Bench",
+  "description": "Independent sine tones in the left and right channel, 1 to 20000 Hz, with a live scope and WAV export.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0E1113",
+  "theme_color": "#0E1113",
+  "categories": ["utilities", "music"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
